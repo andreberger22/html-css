@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: "Love";
+            src: url(fonts/Ronald\ Charis.otf) format("opentype"), url(fonts/Ronald\ Charis.ttf) format("truetype");
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - Opentype (otf)
+                - Truetype (ttf)
+                - embedded- opentype
+                - truetype-aat (apple advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sunt corrupti a? Consequuntur aspernatur vero quod tempore fugiat, consequatur voluptates iure officiis dolore similique soluta, enim repudiandae voluptatem molestias fuga!</p>
+</body>
+</html>
